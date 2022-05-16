@@ -1,0 +1,110 @@
+.card{
+  display: inline-flex;
+  border-radius: 32px;
+  overflow: hidden;
+  .link{
+    display: inline-flex;
+    position: relative;
+    color: var(--white-color);
+    .overlay{
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(180deg, rgba(0,0,0,0.60) 0%, rgba(0,0,0,0.00) 54%);
+      justify-content: space-between;
+      padding: 18px;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      .top, .bottom{
+        transition: 0.3s all;
+      }
+      .top{
+        .date{
+          font-style: normal;
+          font-weight: 800;
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: -0.0062em;
+          text-transform: uppercase;
+        }
+        h3{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 34px;
+          line-height: 41px;
+          margin: 15px 0px;
+          letter-spacing: 0.374px;
+          @include desktop{
+            font-size: 26px;
+            line-height: 30px;
+          }
+        }
+      }
+      .bottom{
+        margin-bottom: 20px;
+        p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 20px;
+          max-width: 70%;
+          @include desktop{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    picture{
+      display: inline-flex;
+      img{
+        transition: 0.3s all;
+        display: inline-flex;
+        transform: scale(1);
+      }
+    }
+    &:hover{
+      picture{
+        img{
+          transform: scale(1.1);
+        }
+      }
+      .top{
+        transform: translateY(5px);
+      }
+      .bottom{
+        transform: translateY(20px);
+      }
+    }
+  }
+  @media(min-width: 768px){
+    &.card-large{
+      .link .overlay {
+        padding: 50px;
+        @include tablet{
+          padding: 30px;
+        }
+        .top{
+          h3{
+            font-size: 50px;
+            color: var(--color-white);
+            letter-spacing: 0;
+            margin: 40px 0px;
+            @include desktop{
+              font-size: 44px;
+            }
+            @include tablet{
+              font-size: 36px;
+              margin: 20px 0px;
+            }
+          }
+        }
+        .bottom{
+          @include tablet{
+            // margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.shop-list{
+  .shop{
+    text-align: center;
+    .shop-img{
+      min-height: 362px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      @include tablet{
+        min-height: 250px;
+      }
+    }
+    .shop-info{
+      h4{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--base-shop-color);
+        margin: 12px 0px 0px;
+        strong{
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 20px;
+          display: block;
+          margin: 5px 0px;
+        }
+      }
+      h5{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+        color: var(--base-shop-grey);
+        margin: 15px 0px 18px 0px;
+      } 
+    }
+    .btn-wrap{
+      .btn{
+
+      }
+    }
+  }
+}

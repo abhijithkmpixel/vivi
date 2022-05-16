@@ -1,0 +1,18 @@
+section.banner .page-banner-wrapper .banner-inner-slider .slide-item.with-side-image picture.swiper-bottle-img{
+  right: auto;
+  margin-right: auto;
+  left: 50%;
+  margin-left: -720px;
+  @include desktop{
+    margin-right: auto;
+    margin-left: -580px;
+  }
+  @include tablet{
+    margin-right: auto;
+    margin-left: -460px;
+  }
+  @include mobile{
+    margin: 0px auto;
+    left: 0px;
+  }
+}

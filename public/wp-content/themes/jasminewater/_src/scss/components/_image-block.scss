@@ -1,0 +1,39 @@
+.wp-block-image.is-style-circle-mask img, .wp-block-image.is-style-rounded img{
+  border-radius: 53px;
+  @include mobile{
+    border-radius: 33px;
+  }
+  &.small-rounded{
+    border-radius: 30px;
+  }
+}
+
+.wp-block-image.is-style-circle-mask.small-rounded img, .wp-block-image.is-style-rounded.small-rounded img{
+  border-radius: 30px;
+}
+
+.bobble-group{
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  &.single{
+    img{
+      width: 86%;
+    }
+  }
+}
+
+.wp-block-image{
+  display: inline-flex;
+  margin-bottom: 0px;
+  @include mobile{
+    width: 100%;
+    img, img[height][width]{
+      width: 100%;
+    }
+  }
+}

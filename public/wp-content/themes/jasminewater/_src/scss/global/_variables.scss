@@ -1,0 +1,57 @@
+:root{
+  --white-color: white;
+  --primary-color: #0836A3;
+  --primary-body-color: #113F97; // text
+  --primary-light-color: #00B2FF;
+  --primary-dark-color: #43B2F8;
+  --swiper-theme-color: var(--primary-color);
+  --default-color: #D0DA47;
+  --dark-green-color: #7DBB45;
+  --base-dark-color: #114071;
+  --base-light-color: #ffffff;
+  --primary-start: #337DD5;
+  --primary-stop: #1E4A84;
+  --primary1-start: #174093;
+  --primary1-stop: #069ED9;
+  --base-shop-color: #000D50; // heading
+  --base-shop-grey: #707070;
+  --base-light-grey: #D8D5D9;
+  --light-blue: #2C6CBA;
+  --text-hover: #1E4B84;
+  --bs-font-sans-serif: 'Teshrin AR+LT' ,Tahoma,sans-serif;
+  --swiper-navigation-size: 35px;
+  --error: #e2401c;
+  --success: #0f834d;
+  --notice: #3d9cd2;
+}
+
+$base-font-family: 'Teshrin AR+LT' ,Tahoma,sans-serif;
+
+$tablet-width: 991px;
+$mobile-width: 768px;
+$desktop-width: 1100px;
+$wide-desktop-width: 1360px;
+
+@mixin wide-desktop {
+  @media (max-width: #{$wide-desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}

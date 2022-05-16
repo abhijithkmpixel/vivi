@@ -1,0 +1,17 @@
+.cart-action-row .coupon .input-text{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.cart-collaterals .cart_totals h3{
+  text-align: right;
+}
+.wc-proceed-to-checkout.btn-wrap, .cart-subtotal [data-title], .order-total [data-title]{
+  text-align: left;
+}
+
+@include tablet{
+  .woocommerce-cart-form table.shop_table_responsive .cart_item .product-remove{
+    right: auto;
+    left: -15px;
+  }
+}

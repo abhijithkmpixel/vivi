@@ -1,0 +1,146 @@
+&.social{
+  min-height: 500px;
+  overflow: hidden;
+  @include tablet{
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .title{
+    h2{
+      margin-bottom: 20px;
+      @include mobile{
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .content{
+    max-width: 815px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    @include tablet{
+      width: 480px;
+      margin-top: 20px;
+    }
+    @include mobile{
+      width: 100%;
+      max-width: 510px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .col{
+    width: 258px;
+    @include desktop{
+      width: 242px;
+    }
+    @include tablet{
+      width: 230px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @include mobile{
+      width: 50%;
+    }
+    &:nth-child(2), &:nth-child(5){
+      .card{
+        margin-top: -60px;
+        @include tablet{
+          margin-top: 15px;
+        }
+      }
+    }
+    &:nth-child(3){
+      .card{
+        margin-top: -30px;
+        @include tablet{
+          margin-top: 15px;
+        }
+      }
+    }
+    &:nth-child(6){
+      .card{
+        margin-top: -110px;
+        @include tablet{
+          margin-top: 15px;
+        }
+      }
+    }
+    &:nth-child(4){
+      text-align: right;
+      .card{
+        margin-left: auto;
+        margin-right: 0px;
+      }
+      @include tablet{
+        text-align: center;
+        .card{
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+      @include mobile{
+        text-align: center;
+        .card{
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+    }
+  }
+  .flex{
+    .card{
+      margin-top: 15px;
+      @include tablet{
+        margin-top: 15px;
+      }
+      @include mobile{
+        width: calc(100% - 15px);
+      }
+    }
+  }
+  .social-media-listing{
+    .col{
+      .social-item-picture{
+        background-color: var(--base-light-grey);
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      &:nth-child(1), &:nth-child(2), &:nth-child(5), &:nth-child(6){
+        .social-item-picture{
+          width: 258px;
+          height: 252px;
+          @include desktop{
+            width: 242px;
+          }
+          @include tablet{
+            width: 230px;
+            height: 230px;
+          }
+          @include mobile{
+            width: 100%;
+            height: 158px;
+          }
+        }
+      }
+      &:nth-child(3), &:nth-child(4){
+        .social-item-picture{
+          width: 174px;
+          height: 170px;
+          @include tablet{
+            width: 230px;
+            height: 230px;
+          }
+          @include mobile{
+            width: 100%;
+            height: 158px;
+          }
+        }
+      }
+    }
+  }
+}

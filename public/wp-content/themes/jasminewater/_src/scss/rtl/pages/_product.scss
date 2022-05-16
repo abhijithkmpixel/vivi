@@ -1,0 +1,18 @@
+.product-listing {
+  ul.products.columns-3 li.product {
+    .vivi-quantity{
+      margin-left: 0px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.product-detail .flex {
+  .col.cta .summary {
+    .share-wrap{
+      @include desktop{
+        float: left;
+      }
+    }
+  }
+}

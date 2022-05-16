@@ -1,0 +1,130 @@
+&.chairman{
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  overflow: hidden;
+  @include tablet{
+    // display: flex;
+    // flex-direction: column-reverse;
+    background: var(--white-color);
+    background-image: linear-gradient(270deg, #6FBCDC 3%, #327DBE 100%);
+  }
+  .title{
+    @include tablet{
+      text-align: left;
+      h2{
+        margin-top: 20px;
+        color: var(--white-color);
+      }
+    }
+    @include tablet{
+      img{
+        // filter: invert(1);
+        // filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%)
+      }
+    }
+  }
+  .chairman-bg{
+    display: flex;
+    max-height: 580px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &::after{
+      content: "";
+      background-image: url('../images/chairman-overlay.svg');
+      background-size: 100% auto;
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      top: 0px;
+      @include tablet{
+        display: none;
+      }
+      @include mobile{
+        left: -220px;
+      }
+    }
+    img{
+      width: 100%;
+    }
+  }
+  .caption{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    @include tablet{
+      position: relative;
+    }
+    .caption-inner{
+      max-width: 440px;
+      @include desktop{
+        max-width: 350px;
+      }
+      @include tablet{
+        max-width: 100%;
+      }
+      .title{
+        margin-top: 10px;
+        &:before{
+          content: '"';
+          display: flex;
+          position: absolute;
+          color: rgba(white, 0.1);
+          font-size: 120px;
+          left: -60px;
+          top: 90px;
+          @include mobile{
+            font-size: 80px;
+            left: 8px;
+            top: 15px;
+          }
+        }
+      }
+      h4, h5, p{
+        color: var(--white-color);
+      }
+      h4, h5{
+        margin: 5px 0px;
+      }
+      p{
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 21px;
+        @include desktop{
+          font-size: 13px;
+        }
+        @include tablet{
+          font-size: 15px;
+        }
+      }
+      h4{
+        font-size: 24px;
+        letter-spacing: 0;
+        @include desktop{
+          font-size: 20px;
+        }
+      }
+      h5{
+        font-size: 17px;
+        letter-spacing: 0;
+        line-height: 22px;
+        @include desktop{
+          font-size: 15px;
+        }
+      }
+      .end{
+        margin-top: 40px;
+        @include desktop{
+          margin-top: 25px;
+        }
+        @include tablet{
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

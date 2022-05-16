@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1153px" height="580px" viewBox="0 0 1153 580" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <defs>
+        <linearGradient x1="50.0000658%" y1="24.0130904%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#44A4E0" offset="0.0775103802%"></stop>
+            <stop stop-color="#3783C6" offset="54.4667677%"></stop>
+            <stop stop-color="#2455A2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#3B8DC7" offset="0%"></stop>
+            <stop stop-color="#2C72B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="96.5555583%" y1="50%" x2="0%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#6FBCDC" offset="0%"></stop>
+            <stop stop-color="#327DBE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="about-us" transform="translate(-1.000000, -1433.000000)">
+            <g id="chairman" transform="translate(1.000000, 1433.000000)">
+                <g id="Group-2">
+                    <path d="M811,580 C979.328659,319.384074 1080.13487,126.050741 1113.41862,0 C1123.3864,0 1136.17464,0 1151.78334,0 L1152.02217,580 L811,580 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                    <path d="M975,-2.84217094e-14 C1050.7323,98.8997599 1109.72763,196.509816 1151.98598,292.83017 C1151.98598,207.726364 1151.98598,110.116308 1151.98598,-2.84217094e-14 L975,-2.84217094e-14 Z" id="Path-2" fill="#87DCFF" opacity="0.5"></path>
+                    <path d="M1151.78334,0 L1151.90393,292.643193 C1128.36101,239.00788 1099.62856,184.972677 1065.7066,130.537585 C1087.60234,81.054426 1103.50539,37.5429404 1113.41862,0 L1151.78334,0 L1151.78334,0 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                    <path d="M577.017517,0 C563.797099,66.4181499 559.213542,143.426542 563.266846,231.025178 C567.32015,318.623813 601.697998,434.948754 666.400391,580 L0,580 L0,0 L577.017517,0 Z" id="Path-3" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

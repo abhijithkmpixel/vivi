@@ -1,0 +1,205 @@
+.title{
+  max-width: 460px;
+  display: inline-block;
+  width: 100%;
+  @include tablet{
+    max-width: 100%;
+    text-align: center;
+  }
+  &.wide{
+    max-width: 100%;
+    p{
+      max-width: 100%;
+    }
+  }
+  &.center{
+    max-width: 100%;
+    text-align: center;
+    p{
+      max-width: 100%;
+    }
+  }
+  h1, h2{
+    margin: 0px;
+    font-style: normal;
+    width: 100%;
+  }
+  h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    margin: 0px 0px 25px 0px;
+    small{
+      display: block;
+      font-size: 34px;
+      letter-spacing: 0;
+      @include mobile{
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    @include desktop{
+      font-size: 58px;
+    }
+    @include tablet{
+      font-size: 45px;
+      line-height: 56px;
+    }
+    @include mobile{
+      font-size: 42px;
+      line-height: 50px;
+    }
+    .vivi{
+      top: 14px;
+      margin-left: 0px;
+      position: relative;
+      @include desktop{
+        max-width: 100px;
+        display: inline-block;
+      }
+    }
+  }
+  h2{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 22px;
+    margin: 0px 0px 40px 0px;
+    @include desktop{
+      font-size: 38px;
+      line-height: 22px;
+      margin-bottom: 20px;
+    }
+    @include mobile{
+      font-size: 35px;
+      line-height: 44px;
+    }
+    .vivi{
+      top: 10px;
+      margin-left: 5px;
+      position: relative;
+      display: inline-flex;
+      @include desktop{
+        max-width: 60px;
+        display: inline-block;
+        top: 6px;
+      }
+      &.blue{
+        top: 5px;
+        margin-left: 0px;
+        max-width: 120px;
+        @include desktop{
+          max-width: 60px;
+          display: inline-block;
+          top: 6px;
+        }
+      }
+    }
+  }
+  h3{
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: 42px;
+    @include desktop{
+      font-size: 30px;
+    }
+    @include tablet{
+      font-size: 26px;
+      line-height: 34px;
+    }
+    @include mobile{
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+  h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px;
+  }
+  p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0;
+    max-width: 80%;
+    @include tablet{
+      max-width: 320px;
+      margin: 20px auto;
+    }
+  }
+  &.title-split{
+    .flex{
+      .col{
+        width: 100%;
+        &.title-head{}
+        &.filter{
+          max-width: 320px;
+          @include tablet{
+            display: none;
+          }
+          .filter-wrapper .filter-item > label{
+            min-width: 115px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-cart, .woocommerce-checkout, .woocommerce-profile, .woocommerce-account, .woocommerce-page{
+  .woocommerce{
+    h3{
+      font-size: 25px;
+      line-height: 31px;
+      color: var(--primary-color);
+      margin: 20px 0px 20px 0px;
+      text-align: left;
+      @include mobile{
+        font-size: 20px;
+        margin: 15px 0px;
+      }
+    }
+    h4{
+      font-size: 17px;
+      line-height: 31px;
+      color: var(--primary-color);
+      margin: 0px 0px 15px 0px;
+      letter-spacing: 0;
+      text-align: left;
+      line-height: 22px;
+      font-weight: 600;
+      @include mobile{
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.sub-title{
+  .title{
+    p{
+      max-width: 100%;
+      margin: 45px 0px 40px;
+      font-size: 17px;
+      color: var(--primary-body-color);
+      letter-spacing: 0;
+      line-height: 22px;
+      @include desktop{
+        margin-top: 20px;
+      }
+      @include mobile{
+        margin: 20px 0px 30px;
+        font-size: 15px;
+      }
+      a, strong{
+        color: var(--primary-body-color);
+        font-weight: 600;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+&.why-vivi{
+  .swiper-slide .swiper-bottle{
+    transform: scaleX(-1);
+    right: auto;
+    left: 0px;
+  }
+}
+
+.vivi-offers .offers{
+  h4{
+    strong{
+      margin-bottom: 5px;
+      margin-top: -17px;
+      font-size: 17px;
+      line-height: 20px;
+      padding: 6px;
+    }
+  }
+  @include desktop{
+    margin: 30px 60px 0px 0px;
+  }
+  @include mobile{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  & + .offers{
+    margin-left: 0px;
+    margin-right: 22px;
+  }
+}

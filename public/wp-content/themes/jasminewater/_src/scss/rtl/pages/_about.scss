@@ -1,0 +1,18 @@
+section{
+  &.chairman {
+    .caption .caption-inner{
+      margin-left: 0px;
+      margin-right: auto;
+    }
+  }
+  &.certificates {
+    h2, p{
+      text-align: right;
+    }
+    .certificate-paginate{
+      flex-direction: row-reverse;
+      margin-left: auto;
+      margin-right: 0px;
+    }
+  }
+}

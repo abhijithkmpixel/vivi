@@ -1,0 +1,204 @@
+section.banner{
+  &.inner-banner{
+    height: auto;
+    min-height: unset;
+    @include desktop{
+      height: 480px;
+    }
+    @include tablet{
+      height: 400px;
+    }
+    @include mobile{
+      height: calc(530px);
+    }
+  }
+  .page-banner-wrapper{
+    height: 100%;
+    overflow: hidden;
+    .banner-inner-slider{
+      overflow: visible;
+      .slide-item{
+        background: none;
+        height: calc(580px - 80px);
+        @include desktop{
+          height: calc(480px - 80px);
+        }
+        @include mobile{
+          height: calc(530px + 60px);
+        }
+        .caption{
+          margin-top: -15px;
+          @include mobile{
+            margin-top: 0px;
+            align-items: flex-start;
+            padding: 30px 0px;
+            text-align: center;
+          }
+          h1, h2{
+            margin: 0px;
+          }
+          h1, h2, p{
+            max-width: 680px;
+            @include desktop{
+              max-width: 520px;
+            }
+          }
+        }
+        &.with-side-image{
+          padding-bottom: 100px;
+          height: calc(580px + 20px);
+          @include desktop{
+            height: calc(480px + 20px);
+          }
+          @include tablet{
+            padding-bottom: 0px;
+            height: calc(380px + 20px);
+          }
+          @include mobile{
+            padding-bottom: 60px;
+            height: calc(530px + 60px);
+          }
+          .caption{
+            margin-top: -40px;
+            @include tablet{
+              margin-top: 0px;
+              h1, h2, p{
+                max-width: 420px;
+              }
+            }
+            @include mobile{
+              text-align: center;
+              h1, h2, h3, p{
+                margin-left: auto;
+                margin-right: auto;
+              }
+              p{
+                max-height: 45px;
+                overflow: hidden;
+              }
+            }
+          }
+          picture.swiper-bottle-img{
+            right: 50%;
+            margin-right: -720px;
+            max-width: 640px;
+            width: 100%;
+            bottom: 0px;
+            @include desktop{
+              max-width: 480px;
+              margin-right: -580px;
+              bottom: 0px;
+            }
+            @include tablet{
+              margin-right: -460px; 
+              max-width: 420px;
+            }
+            @include mobile{
+              text-align: center;
+              margin: 0px auto 0px auto;
+              max-width: 100%;
+              right: 0px;
+            }
+            img{
+              width: 100%;
+              @include mobile{
+                max-width: 320px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .slide-item{
+      position: relative;
+      padding-bottom: 0px;
+      .swiper-bg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: 100%;
+        }
+      }
+      .caption{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -40px;
+        width: 100%;
+        height: 100%;
+        @include wide-desktop{
+          margin-top: -30px;
+        }
+        @include mobile{
+          margin-top: 0px;
+        }
+        .container{
+          width: 100%;
+          position: relative;
+          height: auto;
+          z-index: 1;
+          h1, h2, h3, p{
+            color: var(--white-color);
+            margin: 40px 0px;
+            @include wide-desktop{
+              margin: 20px 0px;
+            }
+            @include tablet{
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
+          h1, h2{
+            font-size: 70px;
+            letter-spacing: -0.1px;
+            line-height: 73px;
+            @include wide-desktop{
+              font-size: 62px;
+              line-height: 65px;
+            }
+            @include desktop{
+              font-size: 52px;
+              line-height: 55px;
+            }
+            @include mobile{
+              font-size: 42px;
+              line-height: 42px;
+            }
+          }
+          p{
+            font-size: 17px;
+            letter-spacing: 0;
+            line-height: 22px;
+          }
+        }
+      }
+      .swiper-bottle-img{
+        position: absolute;
+        right: 0px;
+        bottom: -30px;
+      }
+    }
+    .swiper-button-next, .swiper-button-prev{
+      width: 30px;
+      height: 45px;
+      padding: 0px;
+      margin-top: -30px;
+      @include mobile{
+        display: none;
+      }
+      &:after{
+        color: var(--white-color);
+      }
+    }
+  }
+}
+
+.page-template-template-about{
+  section.banner .page-banner-wrapper .banner-inner-slider{
+    background: var(--primary-color);
+  }
+}

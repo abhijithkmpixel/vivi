@@ -1,0 +1,100 @@
+&.download-app{
+  position: relative;
+  overflow: visible;
+  max-width: 100vw;
+  padding: 0px;
+  z-index: 1;
+  .container{
+    // max-width: 1244px;
+    @include tablet{
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .overlay{
+    position: absolute;
+    width: 100%;
+    margin: 0px auto;
+    @include tablet{
+      position: relative;
+    }
+  }
+  .title{
+    margin-top: 150px;
+    @include tablet{
+      margin: 50px 0px;
+    }
+  }
+  .iphone{
+    display: inline-flex;
+    margin: -95px 0px 0px 120px;
+    width: 580px;
+    @include desktop{
+      margin: -85px 90px 0px 0px;
+      width: 480px;
+    }
+    @include tablet{
+      width: 100%;
+      margin: 0px 0px -60px 0px;
+      position: relative;
+      justify-content: flex-end;
+      display: flex;
+    }
+    @include mobile{
+      margin: 0px 0px -90px 0px;
+    }
+    img{
+      width: 100%;
+      @include tablet{
+        max-width: 320px;
+      }
+    }
+  }
+  .swiper-img{
+    width: 100%;
+    display: flex;
+    max-height: 507px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+    @include tablet{
+      height: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 0px;
+      img{
+        height: 100%;
+        width: auto;
+        max-width: inherit;
+      }
+    }
+  }
+  .btn-wrap{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+  }
+  .store-btns{
+    display: inline-flex;
+    & + .store-btns{
+      margin-left: 14px;
+    }
+    @include tablet{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  @include tablet{
+    .flex{
+      flex-wrap: wrap;
+      .col{
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.swiper-pagination{
+  width: 100%;
+  .container{
+    display: flex;
+    .swiper-pagination-bullet{
+      opacity: 1;
+      background: rgba(255, 255, 255, 0.23);
+      border-radius: 26px;
+      width: 53px;
+      height: 6px;
+      cursor: pointer;
+      &.swiper-pagination-bullet-active{
+        background: rgba(255, 255, 255, 1);
+        cursor: default;
+      }
+      & + .swiper-pagination-bullet{
+        margin-left: 15px;
+      }
+    }
+  }
+}

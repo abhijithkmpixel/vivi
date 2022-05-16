@@ -1,0 +1,392 @@
+.form-row{
+  width: 100%;
+  position: relative;
+  float: left;
+  margin: 0px 0px 10px 0px;
+  .icon-wrap{
+    font-size: 25px;
+    position: absolute;
+    color: var(--primary-body-color);
+    right: 25px;
+    bottom: 20px;
+  }
+  label{
+    width: 100%;
+    display: flex;
+    margin: 14px 0px 8px 0px;
+    font-size: 15px;
+    color: var(--primary-body-color);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 22px;
+    @include mobile{
+      // font-size: 15px;
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+    span.optional{
+      font-weight: 300;
+    }
+    &.checkbox{
+      text-align: left;
+      input{
+        margin: -3px 15px 0px 0px;
+      }
+    }
+    & + .input-text{
+
+    }
+  }
+  &#billing_country_field .woocommerce-input-wrapper strong, .input-text{
+    height: 64px;
+    @include mobile{
+      height: 60px;
+      font-size: 15px;
+    }
+  }
+  .input-textarea{
+    height: 120px;
+  }
+  .select-wrap, .woocommerce-input-wrapper{
+    select, .select2-container{
+      width: 100% !important;
+    }
+    select, .select2-container {
+      .select2-selection--single{
+        height: 64px;
+        background: var(--white-color);
+        border: 1px solid var(--default-color);
+        border-radius: 10px;
+        padding: 15px 25px;
+        font-size: 17px;
+        @include mobile{
+          height: 60px;
+          font-size: 15px;
+          padding: 12px 25px;
+        }
+        .select2-selection__rendered{
+          line-height: 35px;
+          color: var(--primary-body-color);
+          padding: 0px;
+        }
+        .select2-selection__arrow{
+          height: 100%;
+          width: 65px;
+          b{
+            color: var(--primary-body-color);
+            font-weight: normal;
+            font-size: 18px;
+            padding: 0px;
+            width: 100%;
+            @include mobile{
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &#billing_country_field .woocommerce-input-wrapper strong, .input-text, .input-textarea{
+    width: 100%;
+    background: var(--white-color);
+    border: 1px solid var(--default-color);
+    color: var(--primary-body-color);
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 17px;
+    line-height: 22px;
+    @include mobile{
+      font-size: 15px;
+      padding: 15px 20px;
+    }
+    &::placeholder{
+      color: var(--primary-body-color);
+      opacity: 0.6;
+    }
+    &:focus{
+      border-radius: 10px;
+      border-color: var(--primary-color);
+      color: var(--primary-body-color);
+      outline: 0;
+    }
+    & + span{
+      em{
+        font-size: 13px;
+        font-style: normal;
+        opacity: 0.5;
+      }
+    }
+    & + .wpcf7-not-valid-tip{
+      font-size: 12px;
+      margin: 6px 0px;
+    }
+  }
+  &#billing_country_field .woocommerce-input-wrapper{
+    width: 100%;
+    display: flex;
+    strong{
+      line-height: 32px;
+      font-weight: normal;
+      color: var(--primary-color);
+      border-color: var(--primary-color);
+      // opacity: 0.8;
+      cursor: not-allowed;
+    }
+  }
+  &.form-row-first, &.form-row-last{
+    width: 48%;
+  }
+  &.form-row-first{
+    float: left;
+  }
+  &.form-row-last{
+    float: right;
+  }
+  &.form-row-wide{
+    width: 100%;
+  }
+}
+
+abbr, acronym{
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+form{
+  .clear{
+    display: flex;
+    width: 100%;
+  }
+  button.button, input.button{
+    cursor: pointer;
+    border-radius: 26px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--base-dark-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    background: var(--default-color);
+    &:hover{
+      border-color: var(--default-color);
+      background: transparent;
+      color: var(--default-color);
+    }
+  }
+}
+
+fieldset{
+  margin: 40px 0px 0px;
+  padding: 0px;
+  border: 0px;
+  legend{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    display: inline-flex;
+    position: relative;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+
+.wpcf7-form{
+  .form-row{
+    & > label{
+      display: none;
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.select2-container--default .select2-results > .select2-results__options{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected], .select2-container--default .select2-results__option--highlighted[data-selected]{
+  background: var(--primary-body-color);
+}
+
+.select2-container .select2-dropdown{
+  margin: 2px 0px;
+  border: 1px solid rgba(#707070, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.select2-container--default .select2-selection--single {
+  .select2-selection__arrow b{
+    border: 0px;
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    width: 30px;
+    height: 100%;
+    margin: 0px;
+    top: 0px;
+    left: auto;
+    right: 0px;
+    &:before{
+      content: "\e909";
+    }
+  }
+}
+
+.woocommerce-form{
+  color: var(--primary-body-color);
+  [type="checkbox"], [type="radio"]{
+    margin-right: 8px;
+  }
+  a{
+    color: var(--primary-body-color);
+  }
+  .woocommerce-button{
+    margin-top: 15px;
+  }
+  .btn-link{
+    margin-top: 20px;
+  }
+  .note{
+    margin-top: 0px;
+    color: var(--primary-body-color);
+  }
+  .form-row{
+    &.desktop{
+      display: block;
+    }
+    &.mobile{
+      display: none;
+    }
+    @include tablet{
+      &.desktop{
+        display: none;
+      }
+      &.mobile{
+        display: block;
+      }
+    }
+  }
+}
+
+#delivery_date{
+  background: none;
+  & + .icon-wrap{
+    z-index: -1;
+  }
+}
+
+.woocommerce-form__label-for-checkbox, .woocommerce-form__label-for-radio{
+  cursor: pointer;
+}
+
+[type=checkbox], [type=radio]{
+  height: 20px;
+  min-width: 20px;
+  width: 20px;
+  position: relative;
+  top: 4px;
+  border: 1px solid var(--default-color) !important;
+  border-radius: 5px;
+  display: inline-block;
+  -webkit-appearance: none;
+  &:before{
+    content: "";
+    display: flex;
+    height: 8px;
+    width: 8px;
+    background: white;
+    padding: 0px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 2px;
+  }
+  &:checked{
+    background: var(--default-color);
+  }
+}
+
+[type=radio]{
+  border-radius: 50%;
+  &:before{
+    border-radius: 50%;
+  }
+}
+
+.fancybox-container h4{
+  margin: 0px;
+}
+
+.fancybox-slide--html .fancybox-content{
+  max-width: calc(100% - 30px);
+  width: 548px;
+  @include mobile{
+    padding: 30px 15px;
+    h4{
+      font-size: 20px;
+    }
+  }
+}
+
+.iti__flag-container{
+  max-height: 64px;
+  @include mobile{
+    height: 60px;
+  }
+}
+
+.iti{
+  width: 100%;
+  &.iti--container{
+    z-index: 999999999999;
+    max-width: 460px;
+    .iti__country-list{
+      max-width: 100%;
+    }
+  }
+}
+.iti__selected-flag{
+  padding: 0 15px;
+}
+
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=tel], .iti--allow-dropdown input[type=text], .iti--separate-dial-code input, .iti--separate-dial-code input[type=tel], .iti--separate-dial-code input[type=text]{
+  padding-left: 70px;
+}
+
+.woocommerce form .form-row .required{
+  color: var(--error);
+  font-size: 11px;
+  width: 10px;
+  display: inline-block;
+  text-align: center;
+}

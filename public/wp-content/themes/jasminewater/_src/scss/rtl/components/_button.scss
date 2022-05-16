@@ -1,0 +1,21 @@
+.btn{
+  & + .btn{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+  &.btn-icon{
+    .icon-share{
+      margin-left: 20px;
+      margin-right: 0px;
+    }
+  }
+  &.btn-link{
+    i{
+      display: inline-flex;
+      margin-left: 0px;
+      margin-right: 5px;
+      margin-top: 5px;
+      transform: rotate(180deg);
+    }
+  }
+}

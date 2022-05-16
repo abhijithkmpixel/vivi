@@ -1,0 +1,35 @@
+&.about-content{
+  .title{
+    @include tablet{
+      // text-align: left;
+    }
+    h3{
+      margin: 0px 0px 10px 0px;
+    }
+  }
+  .top-space{
+    margin-top: 30px;
+  }
+  .intro{
+    .col{
+      max-width: 450px;
+      @include desktop{
+        max-width: 360px;
+      }
+      @include tablet{
+        max-width: 100%;
+      }
+      h2, h3, h4{
+        color: var(--primary-color);
+        margin-bottom: 0px;
+      }
+      p{
+        font-size: 15px;
+        color: var(--primary-body-color);
+        letter-spacing: 0;
+        line-height: 21px;
+        font-weight: 300;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.woocommerce-pagination, .vivi-pagination{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  ul.page-numbers{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    li{
+      & + li{
+        margin-left: 10px;
+      }
+      span, a{
+        height: 38px;
+        width: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border: 1px solid var(--default-color);
+        border-radius: 50%;
+        cursor: pointer;
+        color: var(--base-dark-color);
+        transition: 0.3s all;
+        &:hover{
+          border-color: var(--primary-color);
+          color: var(--primary-color);
+        }
+        &.swiper-button-next-certiificate{
+          margin-left: 10px;
+        }
+        &.current{
+          // opacity: 0.3;
+          border-color: var(--base-shop-grey);
+          cursor: default;
+        }
+      }
+      &.active{
+        a, span{
+          border-color: var(--primary-color);
+          color: var(--primary-color);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+.product-loop-item{
+  &.disable{
+    a.woocommerce-loop-product__link{
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+  &.product-item{
+    position: relative;
+    text-align: center;
+    img{
+      margin: 0px auto;
+    }
+    .onsale{
+      position: absolute;
+      right: 0px;
+      height: 45px;
+      width: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border: 1px solid var(--default-color);
+      background-color: var(--default-color);
+      border-radius: 50%;
+      cursor: pointer;
+      color: var(--white-color);
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 700;
+    }
+    .product_type_variable{
+      margin: 22px 0px 0px;
+      cursor: pointer;
+      border-radius: 26px;
+      height: 38px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--base-dark-color);
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 10px 35px;
+      border: 1px solid transparent;
+      background: var(--primary-color);
+      color: var(--white-color);
+      font-size: 12px;
+      line-height: 32px;
+      &:hover{
+        border-color: var(--primary-color);
+        background: transparent;
+        color: var(--primary-color);
+      }
+    }
+    a{
+      text-decoration: none;
+      display: block;
+    }
+    h2{
+      font-size: 15px;
+      color: var(--base-dark-color);
+      letter-spacing: 0.5px;
+      margin: 20px 0px 10px;
+    }
+    p{
+      font-size: 14px;
+      color: var(--base-dark-color);
+      letter-spacing: 0;
+      line-height: 21px;
+      margin: 10px 0px;
+    }
+    .price{
+      font-size: 14px;
+      color: var(--base-shop-grey);
+      letter-spacing: 0;
+      line-height: 21px;
+    }
+    .vivi-quantity{
+      display: inline-flex;
+      margin-left: 10px;
+      .quantity{
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s all;
+      }
+      &.active{
+        .quantity{
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+    .btn-wrap{
+      margin-top: 20px;
+      @include mobile{
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+.product-listing{
+  ul.products.columns-3 {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li.product{
+      &::marker{
+        color: white;
+      }
+      margin: 50px 0px 0px 0px;
+      width: 33%;
+      @include desktop{
+        width: 50%;
+        min-width: 50%;
+      }
+      @include mobile{
+        width: 100%;
+      }
+      .vivi-quantity{
+        position: relative;
+        .qty-selector{
+          position: absolute;
+        }
+      }
+    }
+    li.product-placeholder{
+      list-style: none;
+      width: 33%;
+      height: 1px;
+    }
+  }
+}

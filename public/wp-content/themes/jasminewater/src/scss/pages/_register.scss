@@ -1,0 +1,17 @@
+.woocommerce-privacy-policy-text{
+  display: inline-block;
+  width: 100%;
+}
+
+.woocommerce-form-register{
+  .bobble-group{
+    margin-top: 80px;
+  }
+  .col{
+    & + .col{
+      @include tablet{
+        margin-top: 0px;
+      }
+    }
+  }
+}

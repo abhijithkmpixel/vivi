@@ -1,0 +1,38 @@
+.woocommerce-form{
+  [type="checkbox"], [type="radio"]{
+    margin-right: 0px;
+    margin-left: 8px;
+  }
+}
+
+.form-row .icon-wrap{
+  right: auto;
+  left: 25px;
+}
+
+.woocommerce-checkout-payment .payment-option-wrap .wc_payment_methods .input-radio{
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.form-row label.checkbox input{
+  margin: -3px 0 0 15px;
+}
+
+.iti{
+  direction: ltr !important;
+}
+
+.fancybox-container .title h1, .fancybox-container .title h2, .fancybox-container .title h3, .fancybox-container .title h4, .fancybox-content, .wpcf7 form .wpcf7-response-output{
+  text-align: right !important;
+}
+.fancybox-slide--html .fancybox-content{
+  direction: rtl;
+}
+
+.form-row.form-row-first{
+  float: right;
+}
+.form-row.form-row-last{
+  float: left;
+}

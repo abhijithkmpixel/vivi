@@ -1,0 +1,33 @@
+section.careers-listing{
+  .content{
+    .title{
+      h3{
+        margin-bottom: -10px;
+        @include mobile{
+          text-align: left;
+        }
+      }
+    }
+  }
+  .flex{
+    .col-placeholder{
+      max-width: 464px;
+      @include tablet{
+        max-width: 100%;
+      }
+    }
+    .col{
+      max-width: 464px;
+      margin-top: 50px;
+      @include desktop{
+        max-width: 360px;
+      }
+      @include tablet{
+        max-width: 100%;
+      }
+      @include mobile{
+        margin-top: 30px;
+      }
+    }
+  }
+}

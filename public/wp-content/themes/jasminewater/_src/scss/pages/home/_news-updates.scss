@@ -1,0 +1,63 @@
+&.news-updates{
+  overflow: hidden;
+  padding-top: 70px;
+  @include desktop{
+    padding-top: 60px;
+  }
+  @include tablet{
+    padding-top: 80px;
+  }
+  @include mobile{
+    padding-bottom: 30px;
+    .container{
+      padding: 0px;
+    }
+  }
+  .col{
+    margin-top: 50px;
+    width: 288px;
+    @include desktop{
+      width: 240px;
+      margin-top: 30px;
+    }
+    @include mobile{
+      margin-top: 20px;
+    }
+    &.wide{
+      width: 100%;
+    }
+  }
+  .title{
+    h2{
+      margin-bottom: 20px;
+    }
+  }
+  .content{
+    max-width: 980px;
+    @include tablet{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      .flex{
+        flex-wrap: nowrap;
+        margin: 0px -10px;
+        .col{
+          min-width: 254px;
+          padding: 0px 10px;
+        }
+      }
+    }
+    @include mobile{
+      padding-left:  0px;
+      padding-right: 0px;
+      .flex{
+        margin: 0px 6px;
+        .col{
+          padding: 0px 7px;
+          &:last-child{
+            padding-right: 15px;
+          }
+        }
+      }
+    }
+  }
+}

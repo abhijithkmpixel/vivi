@@ -1,0 +1,962 @@
+[20-May-2021 06:15:59 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 06:15:59 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 06:15:59 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 06:15:59 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(807): la\core\db\LADBManager->conn()
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(406): la\core\db\LADBManager->countFeeds()
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(140): la\core\LABase->prepareProcess()
+#7 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#8 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#10 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#11 {main}
+[20-May-2021 10:41:25 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:41:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:41:25 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:41:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:41:25 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:41:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:41:25 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:41:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:41:25 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:41:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:41:25 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:41:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:58:30 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:58:30 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:58:30 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:58:30 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 10:58:30 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 10:58:30 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheManager.php(277): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheAdapter.php(96): la\core\cache\LAFacebookCacheManager->getIdPosts('qh31147')
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFFacebook.php(192): la\core\cache\LAFacebookCacheAdapter->getIdPosts('qh31147')
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFHttpRequestFeed.php(36): flow\social\FFFacebook->items('{\n   "data": [\n...')
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFBaseFeed.php(116): flow\social\FFHttpRequestFeed->onePagePosts()
+#10 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(64): flow\social\FFBaseFeed->posts(false)
+#11 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#12 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#13 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#14 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#15 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#16 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#17 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#18 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#19 {main}
+[20-May-2021 16:34:55 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:34:55 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheManager.php(277): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheAdapter.php(96): la\core\cache\LAFacebookCacheManager->getIdPosts('qh31147')
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFFacebook.php(192): la\core\cache\LAFacebookCacheAdapter->getIdPosts('qh31147')
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFHttpRequestFeed.php(36): flow\social\FFFacebook->items('{\n   "data": [\n...')
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFBaseFeed.php(116): flow\social\FFHttpRequestFeed->onePagePosts()
+#10 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(64): flow\social\FFBaseFeed->posts(false)
+#11 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#12 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#13 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#14 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#15 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#16 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#17 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#18 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#19 {main}
+[20-May-2021 16:34:55 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:34:55 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(807): la\core\db\LADBManager->conn()
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(406): la\core\db\LADBManager->countFeeds()
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(140): la\core\LABase->prepareProcess()
+#7 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#8 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#10 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#11 {main}
+[20-May-2021 16:34:55 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:34:55 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 16:34:55 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:34:55 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 16:34:55 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:34:55 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 16:54:26 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:54:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 16:54:26 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:54:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(807): la\core\db\LADBManager->conn()
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(406): la\core\db\LADBManager->countFeeds()
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(140): la\core\LABase->prepareProcess()
+#7 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#8 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#10 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#11 {main}
+[20-May-2021 16:54:26 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:54:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 16:54:26 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 16:54:26 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 18:12:06 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 18:12:06 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(807): la\core\db\LADBManager->conn()
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(406): la\core\db\LADBManager->countFeeds()
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(140): la\core\LABase->prepareProcess()
+#7 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#8 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#10 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#11 {main}
+[20-May-2021 18:12:06 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 18:12:06 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[20-May-2021 18:12:06 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[20-May-2021 18:12:06 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheManager.php(277): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheAdapter.php(96): la\core\cache\LAFacebookCacheManager->getIdPosts('qh31147')
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFFacebook.php(192): la\core\cache\LAFacebookCacheAdapter->getIdPosts('qh31147')
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFHttpRequestFeed.php(36): flow\social\FFFacebook->items('{\n   "data": [\n...')
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFBaseFeed.php(116): flow\social\FFHttpRequestFeed->onePagePosts()
+#10 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(64): flow\social\FFBaseFeed->posts(false)
+#11 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#12 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#13 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#14 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#15 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#16 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#17 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#18 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#19 {main}
+[24-May-2021 09:49:40 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 09:49:40 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[24-May-2021 09:49:40 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 09:49:40 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[24-May-2021 09:49:40 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 09:49:40 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[24-May-2021 09:49:40 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 09:49:40 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[24-May-2021 09:49:40 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 09:49:40 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[24-May-2021 09:49:40 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 09:49:40 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[24-May-2021 12:28:48 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[24-May-2021 12:28:48 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(807): la\core\db\LADBManager->conn()
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(406): la\core\db\LADBManager->countFeeds()
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(140): la\core\LABase->prepareProcess()
+#7 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#8 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#10 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#11 {main}
+[25-May-2021 05:45:56 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[25-May-2021 05:45:56 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(807): la\core\db\LADBManager->conn()
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(406): la\core\db\LADBManager->countFeeds()
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(140): la\core\LABase->prepareProcess()
+#7 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#8 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#10 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#11 {main}
+[25-May-2021 11:16:44 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[25-May-2021 11:16:44 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[25-May-2021 11:16:44 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[25-May-2021 11:16:44 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[25-May-2021 11:16:44 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[25-May-2021 11:16:44 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[25-May-2021 11:16:44 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[25-May-2021 11:16:44 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[25-May-2021 11:16:44 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[25-May-2021 11:16:44 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[28-May-2021 13:45:05 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:45:06 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:45:15 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:45:16 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:45:55 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:46:13 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:47:18 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 758
+[28-May-2021 13:48:10 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 755
+[28-May-2021 13:48:14 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 755
+[28-May-2021 13:49:56 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 754
+[28-May-2021 13:49:57 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 754
+[28-May-2021 13:50:00 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 754
+[28-May-2021 13:50:15 UTC] PHP Fatal error:  Cannot redeclare remove_account_billing_phone_and_email_fields() (previously declared in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:585) in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 754
+[29-May-2021 08:26:31 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_User as array in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php:160
+Stack trace:
+#0 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): otp_login_user('')
+#1 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php on line 160
+[29-May-2021 08:33:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php:856
+Stack trace:
+#0 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): wc_maybe_store_user_agent(NULL)
+#1 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php(168): do_action('wp_login', NULL)
+#4 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): otp_login_user('')
+#5 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Arr in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php on line 856
+[29-May-2021 08:36:07 UTC] PHP Deprecated:  get_userdatabylogin is <strong>deprecated</strong> since version 3.3.0! Use get_user_by('login') instead. in /home4/pixelfl6/public_html/vivi/wp-includes/functions.php on line 4861
+[29-May-2021 08:36:07 UTC] PHP Notice:  Undefined variable: user_login in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php on line 166
+[29-May-2021 08:36:07 UTC] PHP Notice:  Undefined variable: user_login in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php on line 168
+[29-May-2021 08:36:07 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php:856
+Stack trace:
+#0 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): wc_maybe_store_user_agent(NULL)
+#1 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php(168): do_action('wp_login', NULL)
+#4 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): otp_login_user('')
+#5 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Arr in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php on line 856
+[29-May-2021 09:13:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php:856
+Stack trace:
+#0 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): wc_maybe_store_user_agent(NULL)
+#1 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php(168): do_action('wp_login', NULL)
+#4 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): otp_login_user('')
+#5 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Arr in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php on line 856
+[29-May-2021 09:19:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php on line 292 and exactly 2 expected in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php:856
+Stack trace:
+#0 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): wc_maybe_store_user_agent(NULL)
+#1 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php(168): do_action('wp_login', NULL)
+#4 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): otp_login_user('')
+#5 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#6 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Arr in /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-user-functions.php on line 856
+[30-May-2021 16:32:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/register-login.php on line 309
+[01-Jun-2021 05:31:37 UTC] PHP Parse error:  syntax error, unexpected ',' in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/woocommerce/emails/email-styles.php on line 28
+[02-Jun-2021 06:07:59 UTC] Failed to connect to graph.facebook.com port 443: Connection timed out
+[02-Jun-2021 06:08:05 UTC] Failed to connect to graph.facebook.com port 443: Connection timed out
+[02-Jun-2021 06:08:15 UTC] Problem with parsing the error data
+[08-Jun-2021 07:45:24 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[08-Jun-2021 07:45:24 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[08-Jun-2021 07:45:24 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[08-Jun-2021 07:45:24 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheManager.php(277): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LAFacebookCacheAdapter.php(96): la\core\cache\LAFacebookCacheManager->getIdPosts('qh31147')
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFFacebook.php(192): la\core\cache\LAFacebookCacheAdapter->getIdPosts('qh31147')
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFHttpRequestFeed.php(36): flow\social\FFFacebook->items('{\n   "data": [\n...')
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/social/src/flow/social/FFBaseFeed.php(116): flow\social\FFHttpRequestFeed->onePagePosts()
+#10 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(64): flow\social\FFBaseFeed->posts(false)
+#11 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#12 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#13 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#14 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#15 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#16 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#17 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#18 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#19 {main}
+[08-Jun-2021 12:30:57 UTC] Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes::delete_notes_with_name is deprecated since version 1.7.0! Use Automattic\WooCommerce\Admin\Notes\Notes::delete_notes_with_name instead.
+[10-Jun-2021 13:18:15 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[10-Jun-2021 13:18:15 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[10-Jun-2021 13:18:15 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[10-Jun-2021 13:18:15 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[10-Jun-2021 13:18:15 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[10-Jun-2021 13:18:15 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[10-Jun-2021 13:18:15 UTC] SafeMySQL: 1203 User pixelfl6_viviuser already has more than 'max_user_connections' active connections
+[10-Jun-2021 13:18:15 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1203...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}
+[11-Jun-2021 09:01:55 UTC] WordPress database error Duplicate entry '324-32' for key 'PRIMARY' for query UPDATE jw_term_relationships AS o,
+					jw_icl_translations AS ic,
+					jw_icl_translations AS iw,
+					jw_icl_translations AS ip,
+					jw_posts AS p
+						SET o.term_taxonomy_id = ic.element_id
+						WHERE ic.trid = iw.trid
+							AND ic.element_type = iw.element_type
+							AND iw.element_id = o.term_taxonomy_id
+							AND ic.language_code = ip.language_code
+							AND ip.element_type = CONCAT('post_', p.post_type)
+							AND ip.element_id = p.ID
+							AND o.object_id = p.ID
+							AND o.term_taxonomy_id != ic.element_id
+							AND iw.element_type = 'tax_translation_priority' made by require('wp-admin/edit-form-advanced.php'), require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, SitePress->post_edit_language_options, SitePress->verify_taxonomy_translations, WPML_Term_Language_Synchronization->set_translated, WPML_Term_Language_Synchronization->reassign_terms
+[11-Jun-2021 09:09:58 UTC] WordPress database error Duplicate entry '324-32' for key 'PRIMARY' for query UPDATE jw_term_relationships AS o,
+					jw_icl_translations AS ic,
+					jw_icl_translations AS iw,
+					jw_icl_translations AS ip,
+					jw_posts AS p
+						SET o.term_taxonomy_id = ic.element_id
+						WHERE ic.trid = iw.trid
+							AND ic.element_type = iw.element_type
+							AND iw.element_id = o.term_taxonomy_id
+							AND ic.language_code = ip.language_code
+							AND ip.element_type = CONCAT('post_', p.post_type)
+							AND ip.element_id = p.ID
+							AND o.object_id = p.ID
+							AND o.term_taxonomy_id != ic.element_id
+							AND iw.element_type = 'tax_translation_priority' made by require('wp-admin/edit-form-advanced.php'), require_once('wp-admin/admin-header.php'), do_action('admin_head'), WP_Hook->do_action, WP_Hook->apply_filters, SitePress->post_edit_language_options, SitePress->verify_taxonomy_translations, WPML_Term_Language_Synchronization->set_translated, WPML_Term_Language_Synchronization->reassign_terms
+[11-Jun-2021 14:30:59 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:34:13 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:34:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:35:11 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:35:14 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:35:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:36:02 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[11-Jun-2021 14:36:03 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:05:54 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:06:15 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:06:18 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:00 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:14 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:38 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:40 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:51 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:08:59 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:09:01 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:09:07 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:09:15 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:09:16 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:09:33 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:10:14 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:10:14 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:10:42 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:10:55 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:11:24 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:11:34 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:11:34 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:12:10 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:12:51 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:01 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:01 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:18 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:29 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:43 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:49 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:13:57 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:14:02 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:14:09 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:14:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:14:28 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:14:40 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:14:45 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:15:00 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:15:08 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:15:18 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:17:18 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:17:45 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:05 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:11 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:14 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:25 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:27 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:38 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:18:45 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:20:29 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:20:45 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:20:51 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:20:51 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:20:55 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:21:01 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:21:07 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:22:45 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:22:50 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:22:50 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:22:55 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:23:10 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:23:13 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:23:19 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:23:43 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:23:47 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:24:49 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:24:56 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:25:00 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:25:17 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:25:27 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:25:38 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:26:33 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:26:44 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:26:49 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:26:54 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:26:56 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:27:11 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:27:21 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:27:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:27:34 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:27:38 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:06 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:10 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:12 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:16 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:35 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:36 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:28:54 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:29:03 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:29:13 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:29:28 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:29:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:29:39 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:30:27 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:30:46 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:08 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:18 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:23 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:29 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:34 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:50 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:55 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:31:58 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:32:04 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:32:13 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:32:47 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:32:55 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:33:09 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:33:31 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:33:51 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:33:52 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:34:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:34:35 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:34:41 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:35:29 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:36:08 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:36:16 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:36:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:36:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:36:23 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:36:53 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:37:01 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:40:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:40:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:41:43 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 09:42:03 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:46:00 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:46:05 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:46:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:47:33 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:14 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:30 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:36 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:40 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:48 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:52 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:54 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:48:58 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:49:06 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:49:15 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 10:50:10 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:12:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:15:35 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:16:12 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:16:21 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:16:26 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:18:01 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:20:09 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:20:32 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:21:45 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:22:41 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:25:52 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:25:56 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:25:56 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:26:10 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:27:53 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:28:10 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:28:20 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:28:24 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[14-Jun-2021 11:28:27 UTC] Your site has hit the Facebook API rate limit. <a href="http://docs.social-streams.com/article/133-facebook-app-request-limit-reached" target="_blank">Troubleshooting</a>.
+[15-Jun-2021 09:25:11 UTC] Failed to connect to graph.facebook.com port 443: Connection timed out
+[15-Jun-2021 09:25:17 UTC] Failed to connect to graph.facebook.com port 443: Connection timed out
+[16-Jun-2021 06:30:07 UTC] SafeMySQL: 1040 Too many connections
+[16-Jun-2021 06:30:07 UTC] #0 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/colshrapnel/safemysql/safemysql.class.php(121): SafeMySQL->error('SafeMySQL: 1040...')
+#1 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LASafeMySQL.php(35): SafeMySQL->__construct(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADB.php(19): la\core\db\LASafeMySQL->__construct(Array)
+#3 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(68): la\core\db\LADB::create()
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/db/LADBManager.php(1146): la\core\db\LADBManager->conn(true)
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(62): la\core\db\LADBManager->getIdPosts('qh31147')
+#6 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheManager.php(116): la\core\cache\LACacheManager->posts(Array, false)
+#7 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/cache/LACacheAdapter.php(40): la\core\cache\LACacheManager->posts(Array, false)
+#8 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(460): la\core\cache\LACacheAdapter->posts(Array, false)
+#9 /home4/pixelfl6/public_html/vivi/wp-content/plugins/flow-flow/libs/flowflow/core/src/LABase.php(148): la\core\LABase->process(Array, false)
+#10 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): la\core\LABase->processAjaxRequest('')
+#11 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 /home4/pixelfl6/public_html/vivi/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#13 /home4/pixelfl6/public_html/vivi/wp-admin/admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#14 {main}

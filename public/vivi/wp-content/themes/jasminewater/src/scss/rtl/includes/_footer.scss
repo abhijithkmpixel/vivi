@@ -1,0 +1,13 @@
+footer{
+  ul li + li{
+    margin-right: 30px;
+    margin-left: 0px;
+  }
+  .bottom .social-media ul {
+    margin-left: 0px;
+    margin-right: -20px;
+    li + li{
+      margin-right: 0px;
+    }
+  }
+}

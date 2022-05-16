@@ -1,0 +1,90 @@
+&.why-vivi{
+  min-height: 494px;
+  padding-top: 15px;
+  @include desktop{
+    min-height: 420px;
+    padding-top: 30px;
+  }
+  .swiper-pagination{
+    bottom: 0px;
+  }
+  .container{
+    width: 100%;
+  }
+  .title{
+    // margin-top: -30px;
+    @include desktop{
+      margin-top: 0px;
+    }
+  }
+  .swiper-slide{
+    position: relative;
+    .swiper-bottle{
+      width: 672px;
+      display: inline-flex;
+      position: absolute;
+      right: 0px;
+      top: 50px;
+      @include desktop{
+        width: 480px;
+      }
+      @include tablet{
+        display: none;
+      }
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .swiper-pagination{
+    @include tablet{
+      top: 200px;
+      bottom: auto;
+      .container{
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.vivi-offers{
+  display: flex;
+  @include tablet{
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .offers{
+    width: 105px;
+    height: 105px;
+    text-align: center;
+    background: var(--default-color);
+    border: 3px solid var(--white-color);
+    box-sizing: border-box;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.20);
+    border-radius: 50%;
+    margin: 50px 0px 65px;
+    @include desktop{
+      margin: 30px 0px 60px 0px;
+    }
+    @include tablet{
+      margin-bottom: 0px;
+    }
+    & + .offers{
+      margin-left: 22px;
+    }
+    h4{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 17px;
+      line-height: 21px;
+      color: var(--light-blue);
+      strong{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+      }
+    }
+  }
+}

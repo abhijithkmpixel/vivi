@@ -1,0 +1,10 @@
+.woocommerce-pagination, .vivi-pagination{
+  ul.page-numbers{
+    li{
+      & + li{
+        margin-left: 0px;
+        margin-right: 10px;
+      }
+    }
+  }
+}

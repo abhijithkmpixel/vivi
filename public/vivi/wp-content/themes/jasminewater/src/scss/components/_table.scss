@@ -1,0 +1,132 @@
+.shop-table-wrap{
+  border: 1px solid var(--default-color);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  &.no-border{
+    border: 0px;
+    table.shop_table{
+      thead, tbody, tfoot{
+        th, td{
+          padding: 17px 0px;
+        }
+      }
+    }
+  }
+  .shop-table-wrap{
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+  }
+}
+
+table{
+  &.shop_table{
+    margin-bottom: 0px;
+    border-collapse: collapse;
+    text-align: left;
+    thead, tbody, tfoot{
+      background: none;
+      th, td{
+        padding: 14px 30px;
+        background: none;
+        color: var(--primary-body-color);
+        @include mobile{
+          padding: 10px 20px;
+        }
+        &.product-qty{
+          width: 50px;
+          text-align: center;
+        }
+        &.product-remove{
+          width: 80px !important;
+        }
+      }
+      & > tr{
+        & > td, & > th{
+          &:last-child{
+            font-weight: 600;
+            text-align: right;
+            width: 200px;
+          }
+        }
+      }
+    }
+    thead{
+      background-color: var(--default-color);
+      th{
+        padding-top: 17px;
+        padding-bottom: 17px;
+        font-size: 17px;
+        color: var(--primary-body-color);
+        letter-spacing: 0;
+        text-align: left;
+        line-height: 22px;
+      }
+    }
+    tbody, tfoot{
+      tr{
+        & + tr{
+          border-top: 1px solid var(--default-color);  
+        }
+      }
+    }
+    thead{
+      & + tbody{
+        tr{
+          border-top: 1px solid var(--default-color);
+        }
+      }
+    }
+    tbody{
+      // border-bottom: 1px solid var(--default-color);
+    }
+    tfoot{
+      &.tfoot{
+        border-top: 1px solid var(--default-color);
+        tbody{
+          border-bottom: 0px;
+        }
+        .shop_table{
+          border-left: 1px solid var(--default-color);
+          margin-left: auto;
+          margin-right: 0px;
+          @include mobile{
+            border-left: 0px;
+          }
+        }
+        & > tr{
+          &:first-child{
+            border-top: 0px;
+            .shop_table{
+              max-width: 440px;
+              width: 100%;
+              @include tablet{
+                max-width: 340px;
+              }
+              @include mobile{
+                max-width: 100%;
+              }
+              th, td{
+                padding: 14px 30px;
+                @include mobile{
+                  padding: 12px 20px;
+                }
+              }
+              // tr{
+              //   &.order-total, &.cart-subtotal{
+              //     td{
+              //       text-align: right;
+              //     }
+              //   }
+              // }
+            }
+          }
+          td{
+            padding: 0px;
+          }
+        }
+      }
+    }
+  }
+}

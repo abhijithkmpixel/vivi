@@ -1,0 +1,32 @@
+.video-block{
+  display: inline-flex;
+  width: 100%;
+  .video-thumb-wrap{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    .play-btn{
+      height: 69px;
+      width: 69px;
+      border-radius: 50%;
+      background-color: var(--default-color);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -35px;
+      margin-left: -35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--base-dark-color);
+      font-size: 28px;
+      font-weight: normal;
+      transition: 0.3s all;
+      z-index: 1;
+      &:hover{
+        background: var(--primary-color);
+        color: var(--white-color);
+      }
+    }
+  }
+}

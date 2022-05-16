@@ -1,0 +1,47 @@
+section.contact-page {
+  .content .flex .col + .col{
+    padding-left: 0px;
+    padding-right: 80px;
+    @include tablet{
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  }
+  @include mobile{
+    .content .clear + p input.button{
+      margin-left: 0px;
+      margin-right: 50px;
+    }
+  }
+  .select2-container--default .select2-selection--single .select2-selection__arrow{
+    right: auto;
+    left: 1px;
+  }
+  .select-wrap .label-select{
+    left: auto;
+    right: 25px;
+  }
+  .select-wrap .select2-selection__rendered{
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  form button.button, form input.button, p, [type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
+    direction: rtl;
+  }
+}
+
+section.contact-page .content .flex .col .bobble-group{
+  right: auto;
+  left: -130px;
+  @include tablet{
+    left: -120px;
+    right: auto;
+    float: left;
+  }
+  @include mobile{
+    left: -65px;
+    right: auto;
+    float: left;
+  }
+}

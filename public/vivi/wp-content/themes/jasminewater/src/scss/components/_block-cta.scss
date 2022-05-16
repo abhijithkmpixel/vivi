@@ -1,0 +1,61 @@
+.block-cta{
+  text-align: center;
+  color: var(--white-color);
+  .icon{
+    font-size: 28px;
+    height: 50px;
+    width: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+    @include desktop{
+      font-size: 22px;
+    }
+    @include tablet{
+      font-size: 30px;
+    }
+  }
+  h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    justify-content: center;
+    @include desktop{
+      font-size: 15px;
+      margin-top: 0px;
+    }
+    @include tablet{
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    max-width: 70%;
+    margin: 12px auto 0px auto;
+    color: var(--white-color);
+    @include tablet{
+      max-width: 180px;
+    }
+  }
+  .btn{
+    margin: 25px 0px;
+    &.btn-small{
+      height: 33px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    @include tablet{
+      margin-bottom: 0px;
+    }
+  }
+}

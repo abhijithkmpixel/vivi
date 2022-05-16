@@ -1,0 +1,52 @@
+&.shop{
+  z-index: 1;
+  position: relative;
+  margin-top: -100px;
+  padding-top: 10px;
+  @include desktop{
+    padding-top: 30px;
+  }
+  @include tablet{
+    margin-top: 0px;
+    .title{
+      display: none;
+    }
+  }
+  .container{
+    position: relative;
+    z-index: 1;
+    @include mobile{
+      padding: 0px;
+    }
+  }
+  .shop-list{
+    margin-top: -180px;
+    @include tablet{
+      margin-top: -20px;
+      overflow-x: scroll;
+      overflow-y: hidden;
+    }
+    .shop-img{
+      img{
+        @include desktop{
+          max-height: 300px;
+          max-width: 80%;
+        }
+      }
+    }
+  }
+  .btn-wrap{
+    justify-content: center;
+  }
+  .content{
+    @include tablet{
+      .flex{
+        flex-wrap: nowrap;
+        .col{
+          width: 180px;
+          min-width: 180px;
+        }
+      }
+    }
+  }
+}

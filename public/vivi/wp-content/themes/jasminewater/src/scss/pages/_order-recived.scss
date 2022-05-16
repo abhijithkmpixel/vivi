@@ -1,0 +1,153 @@
+.woocommerce-order p{
+  font-size: 17px;
+  color: var(--primary-body-color);
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+
+
+.order-overview{
+  background-image: linear-gradient(180deg, #0E3C9A 0%, #1E4A84 100%);
+  border-radius: 10px;
+  padding: 30px;
+  @include tablet{
+    flex-direction: column;
+    background: none;
+    color: var(--primary-color);
+    border-radius: 0px;
+    background: none;
+    padding: 0px;
+  }
+  .woocommerce-order-overview, .order_details{
+    width: 100%;
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    @include tablet{
+      flex-direction: column;
+      background: none;
+      color: var(--primary-color);
+      background: none;
+    }
+    li{
+      @include tablet{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0px;
+      }
+      & + li{
+        margin-left: 30px;
+        @include tablet{
+          margin-left: 0px;
+          border-top: 1px solid var(--default-color);
+        }
+      }
+      strong{
+        font-weight: 500;
+        display: block;
+        margin: 5px 0px 0px;
+        @include tablet{
+          margin: 0px;
+        }
+      }
+    }
+  }
+}
+
+address{
+  font-style: normal;
+  font-size: 17px;
+  color: var(--primary-body-color);
+  letter-spacing: 0;
+  line-height: 22px;
+  @include mobile{
+    text-align: left;
+    font-size: 15px;
+  }
+}
+
+.woocommerce-order-details{
+  margin-top: 50px;
+  @include mobile{
+    .title{
+      display: none;
+    }
+  }
+}
+
+.order-info-wrap{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  @include mobile{
+    margin-top: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    .woocommerce-customer-details, .delivery-info-wrap{
+      width: 100%;
+    }
+    .woocommerce-customer-details{
+      margin: 30px 0px;
+    }
+  }
+  .title{
+    h3{
+      margin-top: 0px;
+      @include mobile{
+        text-align: left;
+      }
+    }
+  }
+  .delivery-info-wrap{
+    font-weight: 600;
+    width: 100%;
+    max-width: 440px;
+    @include tablet{
+      max-width: 340px;
+    }
+    @include mobile{
+      margin-bottom: 0px;
+      max-width: 100%;
+      .shop-table-wrap{
+        margin-bottom: 0px;
+      }
+    }
+    .delivery-info{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+    }
+
+  }
+}
+
+.shop_table{
+  &.delivery_details{
+    tr{
+      td:first-child{
+        width: 150px;
+      }
+    }
+  }
+  &.profile-details{
+    td{
+      width: auto !important;
+      text-align: left !important;
+    }
+  }
+}
+
+table.shop_table_responsive tr td.woocommerce-orders-table__cell-order-actions, table.shop_table_responsive tr th.woocommerce-orders-table__header-order-actions{
+  text-align: center !important;
+  .btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

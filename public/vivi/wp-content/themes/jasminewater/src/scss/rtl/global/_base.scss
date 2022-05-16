@@ -1,0 +1,39 @@
+img[height][width]{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.flex{
+  &.flex-right{
+    margin-right: auto;
+    margin-left: 0px;
+  }
+  &.flex-left{
+    margin-right: 0px;
+    margin-left: auto;
+  }
+}
+
+picture.align-left, img.align-left{
+  float: right;
+  margin-right: 0px;
+  margin-left: 35px;
+}
+
+.col2-set{
+  .col{
+    & + .col{
+      margin-left: 0px;
+      margin-right: 60px;
+      @include desktop{
+        margin-left: 0px;
+        margin-right: 40px;
+      }
+      @include tablet{
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+  }
+}

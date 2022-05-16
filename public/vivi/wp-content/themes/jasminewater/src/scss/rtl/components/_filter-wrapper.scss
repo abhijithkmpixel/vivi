@@ -1,0 +1,18 @@
+.filter-wrapper .filter-item > label{
+  border-right: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 12px 0px 12px 30px;
+  margin-right: 0px;
+  margin-left: 30px;
+  @include mobile{
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+}
+
+.filter-wrapper .filter-item.check-wrap .cat-selector .input-wrap + .input-wrap{
+  margin-left: 0px;
+  margin-right: 30px;
+}

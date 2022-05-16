@@ -1,0 +1,55 @@
+.woocommerce-profile{
+  .profile-cols{
+    justify-content: space-between;
+    .col{
+      width: 100%;
+      &.address{
+        max-width: 440px;
+        @include mobile{
+          .billing-address{
+            margin-top: 15px;
+          }
+        }
+        address{
+          @include mobile{
+            margin-bottom: 0px;
+          }
+        }
+      }
+      &.info{
+        max-width: 464px;
+        .btn-wrap{
+          margin-top: 30px;
+          @include mobile{
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}
+
+.edit-account, .forgot-password, .reset-password{
+  .bobble-group{
+    display: inline-flex;
+    margin-top: 40px;
+  }
+}
+
+.edit-address-form{
+  .form-row{
+    width: 48%;
+    min-height: 110px;
+    @include mobile{
+      min-height: auto;
+      width: 100%;
+    }
+    &#billing_address_1_field, &#billing_address_2_field{
+      width: 100%;
+      min-height: 60px;
+    }
+    &:nth-child(even){
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.card-career{
+  border-radius: 30px;
+  box-shadow: 0 0 9px 0 rgba(0,0,0,0.10);
+  overflow: hidden;
+  .card-top{
+    padding: 15px 30px;
+    background: var(--primary-dark-color);
+    color: var(--white-color);
+    @include mobile{
+      padding: 15px 20px;
+    }
+    h3{
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--white-color);
+      letter-spacing: 0;
+      font-size: 24px;
+      letter-spacing: 0;
+      margin: 0px;
+      @include desktop{
+        font-size:18px;
+      }
+    }
+  }
+  .card-content{
+    padding: 30px;
+    @include mobile{
+      padding: 20px 20px 30px 20px;
+    }
+    p{
+      font-size: 17px;
+      color: var(--primary-body-color);
+      letter-spacing: 0;
+      line-height: 22px;
+      @include desktop{
+        font-size: 15px;
+      }
+    }
+    .date{
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--swiper-theme-color);
+      display: flex;
+      align-items: center;
+      letter-spacing: 0;
+      line-height: 24px;
+      .icon-wrap{
+        font-size: 22px;
+        margin-right: 15px;
+      }
+    }
+  }
+}

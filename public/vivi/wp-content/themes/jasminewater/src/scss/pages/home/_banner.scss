@@ -1,0 +1,141 @@
+&.banner{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  min-height: 669px;
+  max-height: 669px;
+  background: var(--white-color);
+  .swiper-slide{
+    background: linear-gradient(180deg, var(--primary-start) 569px, var(--white-color) 100px);
+    // background: var(--white-color);
+    padding-bottom: 100px;
+    position: relative;
+    .swiper-bg{
+      display: flex;
+      height: 569px;
+      justify-content: center;
+      align-items: flex-end;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      img{
+        width: 100%;
+        object-fit: cover;
+        max-height: 100%;
+        @include tablet{
+          height: 100%;
+        }
+      }
+    }
+    .swiper-bottle{
+      position: absolute;
+      display: inline-flex;
+      margin-left: -40px;
+      bottom: 0px;
+      left: 50%;
+      @include tablet{
+        max-width: 200px;
+        margin-left: -100px;
+      }
+    }
+    .swiper-right{
+      position: absolute;
+      display: inline-flex;
+      margin-left: 0px;
+      top: -40px;
+      right: 50%;
+      margin-right: -554px;
+      max-width: 515px;
+    }
+    .container{
+      position: relative;
+      .overlay{
+        top: 0px;
+        // height: 569px;
+        position: absolute;
+        z-index: 1;
+        left: auto;
+        right: auto;
+        width: 100%;
+        @include mobile{
+          max-width: 100%;
+          padding: 0px 15px;
+          left: 0px;
+          right: 0px;
+        }
+        .caption{
+          max-width: 400px;
+          @include tablet{
+            max-width: 100%;
+            text-align: center;
+          }
+          h1, h2, h3, p{
+            color: var(--white-color);
+          }
+          h1{
+            padding-top: 100px;
+            @include tablet{
+              padding-top: 0px;
+            }
+          }
+          h2{
+            line-height: 50px;
+            padding-top: 60px;
+            @include tablet{
+              font-size: 32px;
+              line-height: 36px;
+              margin-bottom: 20px;
+              padding-top: 40px;
+            }
+            .vivi{
+              max-width: 85px;
+              display: inline-block;
+              &.center{
+                max-width: 67px;
+                display: inline-block;
+                height: 40px;
+                margin-top: -10px;
+                margin-bottom: 35px;
+              }
+              &.end{
+                max-width: 90px;
+                display: inline-block;
+                height: 40px;
+                margin-top: -40px;
+                margin-bottom: 35px;
+                @include tablet{
+                  max-width: 50px;
+                }
+              }
+            }
+          }
+          .btn-wrap{
+            margin-top: 30px;
+            display: flex;
+            @include tablet{
+              justify-content: center;
+              margin-top: 70px;
+            }
+          }
+        }
+      }
+    }
+    @include tablet{
+      &:nth-child(3){
+        .container .overlay .caption p{
+          margin-top: 60px;
+        }
+      }
+    }
+  }
+  .swiper-pagination{
+    bottom: 140px;
+    @include tablet{
+      bottom: auto;
+      top: 225px;
+      .container{
+        justify-content: center;
+      }
+    }
+  }
+}

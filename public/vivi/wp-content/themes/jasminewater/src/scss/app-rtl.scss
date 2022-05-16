@@ -1,0 +1,23 @@
+@import "global/variables";
+@import "rtl/global/base";
+
+@import "rtl/components/title";
+@import "rtl/components/filter-wrapper";
+@import "rtl/components/button";
+@import "rtl/components/form";
+@import "rtl/components/table";
+@import "rtl/components/slider";
+@import "rtl/components/block-cta";
+@import "rtl/components/pagination";
+@import "rtl/components/card-careers";
+@import "rtl/components/banner";
+
+@import "rtl/includes/header";
+@import "rtl/includes/footer";
+
+@import "rtl/pages/home";
+@import "rtl/pages/about";
+@import "rtl/pages/product";
+@import "rtl/pages/cart";
+@import "rtl/pages/profile";
+@import "rtl/pages/contact";

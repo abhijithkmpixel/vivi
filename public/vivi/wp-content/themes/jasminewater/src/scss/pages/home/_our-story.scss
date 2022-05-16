@@ -1,0 +1,155 @@
+&.our-story{
+  min-height: 668px;
+  padding-top: 70px;
+  @include desktop{
+    min-height: 610px;
+    padding-top: 50px;
+  }
+  @include mobile{
+    min-height: 440px;
+  }
+  .connect-draw{
+    position: absolute;
+    z-index: 1;
+    background-size: 100% auto;
+    &.connect1{
+      height: 105px;
+      width: 300px;
+      background-image: url('../images/connect-1.svg');
+      bottom: 79px;
+      left: 220px;
+      @include desktop{
+        width: 200px;
+        height: 70px;
+      }
+    }
+    &.connect2{
+      height: 49px;
+      width: 176px;
+      background-image: url('../images/connect-2.svg');
+      top: 130px;
+      right: 290px;
+      @include desktop{
+        width: 120px;
+        height: 33px;
+        right: 250px;
+      }
+    }
+  }
+  overflow: hidden;
+  max-width: 100vw;
+  .content{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-container-slide{
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 80px 0px;
+    margin: -80px 0px;
+    @include tablet{
+      margin-top: -60px;
+    }
+    @include mobile{
+      width: 600px;
+      margin-left: -300px;
+      left: 50%;
+      position: relative;
+    }
+  }
+  .swiper-container-3d {
+    .swiper-slide-shadow-left, .swiper-slide-shadow-right{
+      background-image: none;
+    }
+  }
+  .swiper-block{
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 40px rgba(0, 0, 0, 0.291685));
+    position: relative;
+    .swiper-img{
+      width: 100%;
+      height: 424px;
+      background: #D8D8D8;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      @include desktop{
+        height: 380px;
+      }
+      @include mobile{
+        height: 200px;
+      }
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .content{
+      opacity: 0;
+      padding: 0px 65px;
+      @include tablet{
+        padding: 0px 30px;
+      }
+    }
+    .overlay{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+      color: var(--white-color);
+      padding: 10px 30px;
+      @include mobile{
+        padding: 10px;
+      }
+      h3{
+        font-style: normal;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 44px;
+        margin: 30px 0px;
+        @include desktop{
+          font-size: 32px;
+          line-height: 32px;
+        }
+        @include mobile{
+          font-size: 20px;
+          line-height: 23px;
+        }
+        @include mobile{
+          margin: 10px 0px;
+        }
+      }
+      .icon-wrap{
+        font-size: 50px;
+        margin-top: 20px;
+        @include desktop{
+          font-size: 38px;
+        }
+        @include mobile{
+          font-size: 28px;
+          margin-top: 5px;
+        }
+      }
+      .btn{
+        margin-top: 15px;
+        @include mobile{
+          height: 30px;
+        }
+      }
+    }
+  }
+  .swiper-slide{
+    &.swiper-slide-active{
+      .swiper-block{
+        cursor: default;
+      }
+      .content{
+        opacity: 1;
+      }
+    }
+  }
+}

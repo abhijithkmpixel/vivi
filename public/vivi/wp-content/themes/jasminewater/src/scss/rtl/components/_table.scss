@@ -1,0 +1,18 @@
+table.shop_table, table.shop_table thead th, table.shop_table_responsive tr td{
+  text-align: right;
+}
+
+table.shop_table td.product-thumbnail{
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+table.shop_table thead > tr > td:last-child, table.shop_table thead > tr > th:last-child, table.shop_table tbody > tr > td:last-child, table.shop_table tbody > tr > th:last-child, table.shop_table tfoot > tr > td:last-child, table.shop_table tfoot > tr > th:last-child{
+  text-align: left;
+}
+
+address{
+  @include mobile{
+    text-align: right;
+  }
+}

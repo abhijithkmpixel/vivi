@@ -1,0 +1,12 @@
+@import "global/variables";
+@import "global/icons";
+@import "global/fonts";
+
+.editor-styles-wrapper {
+  h1, h2, h3, h4, h5, p{
+    font-family: $base-font-family;
+  }
+}
+
+@import "components/image-block";
+@import "components/wp-block-group";

@@ -1,0 +1,1 @@
+MùÎ`<?php exit; ?>a:1:{s:7:"content";s:75:"https://staging-viviwater.kinsta.cloud/wp-includes/images/media/default.png";}

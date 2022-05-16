@@ -1,0 +1,1 @@
+úÎ`<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;s:14:"page_for_posts";i:1;s:13:"page_on_front";}}

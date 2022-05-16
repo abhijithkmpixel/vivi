@@ -1,0 +1,1 @@
+MùÎ`<?php exit; ?>a:1:{s:7:"content";a:2:{i:0;s:11:"product_cat";i:1;s:11:"product_tag";}}

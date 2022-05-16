@@ -1,0 +1,1 @@
+NùÎ`<?php exit; ?>a:1:{s:7:"content";s:70:"You can order now and schedule your delivery at the appropriate period";}

@@ -1,0 +1,202 @@
+# Copyright (C) 2021 Looks Awesome
+# This file is distributed under the same license as the Flow-Flow package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flow-Flow 4.8.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flow-flow\n"
+"POT-Creation-Date: 2021-05-20 17:53:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Team Name <team@example.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/FlowFlowActivator.php:265
+msgid "Social Stream"
+msgstr ""
+
+#: includes/FlowFlowActivator.php:269
+msgid "Flow-Flow plugin social stream"
+msgstr ""
+
+#: includes/FlowFlowActivator.php:271
+msgid "Social"
+msgstr ""
+
+#: includes/FlowFlowActivator.php:279
+msgid "Choose stream to place on page:"
+msgstr ""
+
+#: includes/FlowFlowWPWidget.php:63
+msgid "Title:"
+msgstr ""
+
+#: includes/FlowFlowWPWidget.php:67
+msgid "Stream:"
+msgstr ""
+
+#: views/public.php:41
+msgid "All"
+msgstr ""
+
+#: views/public.php:42
+msgid "Search"
+msgstr ""
+
+#: views/public.php:43
+msgid "Expand"
+msgstr ""
+
+#: views/public.php:44
+msgid "Collapse"
+msgstr ""
+
+#: views/public.php:45
+msgid "Posted on"
+msgstr ""
+
+#: views/public.php:46
+msgid "Followers"
+msgstr ""
+
+#: views/public.php:47
+msgid "Following"
+msgstr ""
+
+#: views/public.php:48
+msgid "Posts"
+msgstr ""
+
+#: views/public.php:49
+msgid "Show more"
+msgstr ""
+
+#: views/public.php:52
+msgid "Yesterday"
+msgstr ""
+
+#: views/public.php:53
+msgid "s"
+msgstr ""
+
+#: views/public.php:54
+msgid "m"
+msgstr ""
+
+#: views/public.php:55
+msgid "h"
+msgstr ""
+
+#: views/public.php:56
+msgid "ago"
+msgstr ""
+
+#: views/public.php:58
+msgid "Jan"
+msgstr ""
+
+#: views/public.php:58
+msgid "Feb"
+msgstr ""
+
+#: views/public.php:58
+msgid "March"
+msgstr ""
+
+#: views/public.php:59
+msgid "April"
+msgstr ""
+
+#: views/public.php:59
+msgid "May"
+msgstr ""
+
+#: views/public.php:59
+msgid "June"
+msgstr ""
+
+#: views/public.php:60
+msgid "July"
+msgstr ""
+
+#: views/public.php:60
+msgid "Aug"
+msgstr ""
+
+#: views/public.php:60
+msgid "Sept"
+msgstr ""
+
+#: views/public.php:61
+msgid "Oct"
+msgstr ""
+
+#: views/public.php:61
+msgid "Nov"
+msgstr ""
+
+#: views/public.php:61
+msgid "Dec"
+msgstr ""
+
+#: views/public.php:64
+msgid "Navigate with arrow keys"
+msgstr ""
+
+#: views/public.php:65
+msgid "View on"
+msgstr ""
+
+#: views/public.php:66
+msgid "View on site"
+msgstr ""
+
+#: views/public.php:67
+msgid "View all"
+msgstr ""
+
+#: views/public.php:68
+msgid "comments"
+msgstr ""
+
+#: views/public.php:69
+msgid "Scroll for more"
+msgstr ""
+
+#: views/public.php:70
+msgid "No comments yet."
+msgstr ""
+
+#: views/public.php:71
+msgid "Check all comments"
+msgstr ""
+
+#: views/public.php:72
+msgid "Be the first!"
+msgstr ""
+
+#: views/public.php:73
+msgid "Loading"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Flow-Flow"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "social-streams.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Awesome social streams on your website"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Looks Awesome"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "looks-awesome.com"
+msgstr ""

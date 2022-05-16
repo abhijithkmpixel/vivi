@@ -1,0 +1,11 @@
+2021-06-15T12:21:48+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php:754
+Stack trace:
+#0 /home4/pixelfl6/public_html/vivi/wp-includes/shortcodes.php(343): woocommerce_template_display_tax('', '', 'display_tax')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home4/pixelfl6/public_html/vivi/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_tax]')
+#3 /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/woocommerce/cart/cart-totals.php(83): do_shortcode('[display_tax]')
+#4 /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home4/pixelfl6...')
+#5 /home4/pixelfl6/public_html/vivi/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2065): wc_get_template('cart/cart-total...')
+#6 /home4/pixelfl6/public_html/vivi/wp-includes/class-wp-hook.php(292): woocommerce_cart_totals('')
+#7 /home4/p in /home4/pixelfl6/public_html/vivi/wp-content/themes/jasminewater/inc/woocommerce.php on line 754
+
